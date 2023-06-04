@@ -1,14 +1,13 @@
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class Cookies {
+public class CookiesAndHeaders {
 
    // @Test(priority=1)
    void CookiesDemo(){
@@ -36,7 +35,7 @@ public class Cookies {
                Headers head=res.getHeaders();
        for(Header h: head){
            System.out.println(h.getName());
-           System.out.println(res.getHeader(h.getValue()));
+           System.out.println(res.getHeader(h.getName()));
 
        }
 

@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39516f01-72dc-468c-9a2c-404fd559a0fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CookiesAndHeaders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,30 +40,12 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="RestAssured" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Cookies" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ParsingJSONResponseData.testJSONResponse">
+    <configuration name="DifferentWaysToCreatePostBody.testPostUsingExternalJsonFile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Cookies" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Cookies.CookiesDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssured" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Cookies" />
-      <option name="METHOD_NAME" value="CookiesDemo" />
+      <option name="MAIN_CLASS_NAME" value="DifferentWaysToCreatePostBody" />
+      <option name="METHOD_NAME" value="testPostUsingExternalJsonFile" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -75,11 +53,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cookies.HeadersDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParsingJSONResponseData.testJSONResponse (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Cookies" />
-      <option name="METHOD_NAME" value="HeadersDemo" />
+      <option name="MAIN_CLASS_NAME" value="ParsingJSONResponseData" />
+      <option name="METHOD_NAME" value="testJSONResponse" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -87,11 +65,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoggingDemo.Logging" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParsingJSONResponseData.testJSONResponse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoggingDemo" />
-      <option name="METHOD_NAME" value="Logging" />
+      <option name="MAIN_CLASS_NAME" value="ParsingJSONResponseData" />
+      <option name="METHOD_NAME" value="testJSONResponse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice.UsingExternalJSONFile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="practice" />
+      <option name="METHOD_NAME" value="UsingExternalJSONFile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice.postUsingJSONObject" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="practice" />
+      <option name="METHOD_NAME" value="postUsingJSONObject" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -101,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
-        <item itemvalue="TestNG.LoggingDemo.Logging" />
-        <item itemvalue="TestNG.Cookies.HeadersDemo" />
-        <item itemvalue="TestNG.Cookies.CookiesDemo" />
-        <item itemvalue="TestNG.Cookies" />
+        <item itemvalue="TestNG.ParsingJSONResponseData.testJSONResponse" />
+        <item itemvalue="TestNG.ParsingJSONResponseData.testJSONResponse (1)" />
+        <item itemvalue="TestNG.practice.UsingExternalJSONFile" />
+        <item itemvalue="TestNG.DifferentWaysToCreatePostBody.testPostUsingExternalJsonFile" />
+        <item itemvalue="TestNG.practice.postUsingJSONObject" />
       </list>
     </recent_temporary>
   </component>
@@ -130,5 +132,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
